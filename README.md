@@ -2,6 +2,7 @@
 
 Automatizar tareas utilizando AWS Lambda junto con otros servicios de AWS. 
 Automatizaremos la copia de archivos desde un bucket de Amazon S3 a otro bucket.
+la función Lambda se ejecutará automáticamente y copiará ese archivo al bucket-destino. Esto automatiza la tarea de copiar archivos entre buckets de S3 cuando se producen cambios en el bucket-origen.
 
 Arquitectura:
 1) Amazon S3 Buckets: Tendremos dos buckets de S3, uno llamado bucket-origen desde donde copiaremos archivos y otro llamado bucket-destino donde copiaremos los archivos.
